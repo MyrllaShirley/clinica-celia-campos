@@ -1,2 +1,77 @@
 # clinica-celia-campos
 Landing page institucional para clínica de estética e bem-estar desenvolvida com HTML5 e Tailwind CSS para exibição em portfólio.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Célia Campos - Estética e Bem-Estar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-white border-b border-gray-100 py-20 px-6 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl font-bold text-emerald-900 tracking-tight mb-4">Clínica Célia Campos</h1>
+            <p class="text-lg text-emerald-700 mb-8">Estética, Saúde e Bem-Estar</p>
+            
+            <div class="bg-emerald-50 border border-emerald-200 rounded-lg p-4 mb-8 max-w-xl mx-auto">
+                <p class="text-sm text-emerald-800 font-medium">
+                    ✨ Material 100% descartável e esterilizado em autoclave. Sua segurança em primeiro lugar.
+                </p>
+            </div>
+
+            <a href="#" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-8 py-3 rounded-md transition-colors shadow-sm">
+                Agendar Horário
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        <h2 class="text-2xl font-bold text-center text-emerald-900 mb-12">Nossos Serviços</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-lg font-semibold text-emerald-800 mb-4 border-b pb-2">🦶 Podologia & Pés</h3>
+                <ul class="space-y-2 text-gray-600 text-sm">
+                    <li>• Podologia</li>
+                    <li>• Spa do pé</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-lg font-semibold text-emerald-800 mb-4 border-b pb-2">💅 Estética & Beleza</h3>
+                <ul class="space-y-2 text-gray-600 text-sm">
+                    <li>• Cabeleireiro</li>
+                    <li>• Manicure</li>
+                    <li>• Designer de Sobrancelha</li>
+                    <li>• Limpeza de Pele</li>
+                    <li>• Depilação</li>
+                    <li>• Banho de Lua</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-lg font-semibold text-emerald-800 mb-4 border-b pb-2">💆 Terapias Corporais</h3>
+                <ul class="space-y-2 text-gray-600 text-sm">
+                    <li>• Massoterapia Relaxante</li>
+                    <li>• Tratamento Corporal</li>
+                    <li>• Ventosaterapia</li>
+                    <li>• Pedras Quentes</li>
+                    <li>• Bambuterapia</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-emerald-950 text-emerald-100 py-12 px-6 text-center text-sm">
+        <p class="font-semibold mb-2">Clínica Célia Campos &copy; 2026</p>
+        <p class="text-emerald-300 mb-4">Rua Exemplo, 89 - Caucaia, CE</p>
+        <div class="space-y-1">
+            <p>📱 (85) 98831.7191</p>
+            <p>📸 @clinica_celia_campos</p>
+        </div>
+    </footer>
+
+</body>
+</html>
